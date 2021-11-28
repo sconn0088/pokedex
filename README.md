@@ -39,4 +39,4 @@ Example 3: Nidoking evolves from Nidorino using a moon stone. If evolved early e
 
 MECHANICS
 
-The battle engine is written in python. The data for the Pokémon and the moves is stored in a database using MySQL.
+The battle engine is written in python. The data for the Pokémon and the moves are stored in a database using MySQL.
