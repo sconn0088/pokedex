@@ -1,5 +1,6 @@
 # pokedex
 INTRODUCTION
+
 What if Pokémon were real?
 
 That was the original concept that initiated this project. I've been a fan of the game since I first played it as a nine-year-old kid. In the game of Pokémon, you battle opponents with your selected pocket monsters until you finally ascend to the top of the Pokémon League and become the best trainer in the world.
@@ -7,6 +8,7 @@ That was the original concept that initiated this project. I've been a fan of th
 So how do you get to the apex? Sure, you could level up your Pokémon team until you can just bulldoze every opponent. That might be a viable strategy in the game. But we're not talking about the game here. We're talking about real life. And in real life your opponent isn't going to sit back at level 12, or level 25, or even level 50 while you grow to level 80, 90, or 100. Your opponent is going to be leveling up right there with you. In order to gain that edge, you need a real-life Pokédex.
 
 THE POKÉDEX
+
 That's where this project comes in. I created a real-life Pokédex that can calculate your win percentage against any opponent.
 
 Here's how it works: First, you select your Pokémon and your Pokémon's level. All original 151 Pokémon are included for selection and the levels range from 2 to 100.
@@ -36,4 +38,5 @@ Example 2: Caterpie has a three Pokémon evolution chain: Caterpie evolves into 
 Example 3: Nidoking evolves from Nidorino using a moon stone. If evolved early enough in the game, Nidoking can learn Thrash at level 23. Nidorino can never learn Thrash. This concept is upheld, and the move Thrash is not a selectable move for Nidorino. Any move that is learned by Nidorino, by contrast, is selectable for Nidoking.
 
 MECHANICS
+
 The battle engine is written in python. The data for the Pokémon and the moves is stored in a database using MySQL.
